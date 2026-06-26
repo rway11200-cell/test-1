@@ -1,5 +1,7 @@
-# 1. Get ubuntu
-FROM ubuntu:latest
+FROM python:3.12-slim
 
-# 2. Execute python
+WORKDIR /app
+
+COPY . .
+
 CMD ["python3", "main.py"]
