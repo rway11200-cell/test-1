@@ -14,6 +14,92 @@ This project will keep growing, so the documentation favors clear beginner-frien
 - [ ] Create API interaction with database
 - [ ] Optional: use an ORM
 
+## Start Here
+
+Follow these steps in order if this is your first time opening the project.
+
+### 1. Confirm You Have Git
+
+Git is required to download the project from GitHub and keep your local copy updated.
+
+```bash
+git --version
+```
+
+If the command does not work, install Git first:
+
+- macOS: run `xcode-select --install`, or download Git from https://git-scm.com/downloads
+- Windows: download Git from https://git-scm.com/downloads
+- Linux: install it with your package manager, for example `sudo apt install git`
+
+### 2. Confirm You Can Access GitHub
+
+The code repository is hosted on GitHub:
+
+```text
+https://github.com/rway11200-cell/test-1
+```
+
+Open that URL in your browser and confirm you can see the repository. If the repository is private, make sure you are logged in with a GitHub account that has access.
+
+### 3. Open VS Code
+
+VS Code is the recommended editor for this project.
+
+If you do not have it installed yet:
+
+1. Go to https://code.visualstudio.com/
+2. Download VS Code for your operating system.
+3. Install it using the default options.
+4. Open VS Code.
+
+Recommended VS Code extensions:
+
+- Python
+- Docker
+- GitHub Pull Requests
+
+### 4. Open A Terminal
+
+You can use either your system terminal or the terminal inside VS Code.
+
+To open the VS Code terminal:
+
+1. Open VS Code.
+2. Go to `Terminal` > `New Terminal`.
+3. Run commands from that terminal.
+
+### 5. Clone The Repository
+
+Choose a folder where you keep your projects, then run:
+
+```bash
+git clone https://github.com/rway11200-cell/test-1.git
+```
+
+Enter the project folder:
+
+```bash
+cd test-1
+```
+
+Open the project in VS Code:
+
+```bash
+code .
+```
+
+If `code .` does not work, open VS Code manually, then use `File` > `Open Folder` and select the `test-1` folder.
+
+### 6. Choose How To Run The Project
+
+After the repository is open locally, choose one option:
+
+- Manual setup: install Python libraries on your machine and run Uvicorn.
+- Docker setup: build and run the container without installing the Python libraries manually.
+
+Both options are documented below.
+
 ## What You Need
 
 To run the project manually:
